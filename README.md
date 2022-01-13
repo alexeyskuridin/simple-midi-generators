@@ -16,8 +16,14 @@ Both NN were trained to generate melodies in 128 BPM and in the most generic EDM
 
 'model_2_weights.hdf5' - the best saved weights for the 2nd NN.
 
+'NN_1_final.ipynb' - the same as 'NN_1_and_2_final.ipynb', but only 1st NN
+
+'NN_2_final.ipynb' - the same as 'NN_1_and_2_final.ipynb', but only 2nd NN
+
 'NN_1_and_2_final.ipynb' - Jupyter notebook with final midi generator, where both neural networks are created, but their weights are loaded from 'model_1_weights.hdf5' and 'model_2_weights.hdf5'. This generator makes 2 midi files ('Output_1.mid' and 'Output_2.mid').
 
 'Dataset' (folder) - this folder contains 34 midi files with melodies from different progressive house tracks. There are melodies from Alex Aspen, Severman and Martin Garrix tracks and much more.
 # Result of comparison
 The first neural network generates much more pleasant melodies then the second neural network.
+# Interface
+Interface for neural networks: https://github.com/MakronMakaron/simply-midi-generators-GUI
